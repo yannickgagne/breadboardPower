@@ -2,10 +2,10 @@
 
   (general
     (links 71)
-    (no_connects 60)
+    (no_connects 62)
     (area 53.264999 20.244999 106.501001 78.815001)
     (thickness 1.524)
-    (drawings 21)
+    (drawings 23)
     (tracks 0)
     (zones 0)
     (modules 39)
@@ -22,7 +22,7 @@
 
   (layers
     (0 F.Cu signal)
-    (31 B.Cu signal hide)
+    (31 B.Cu signal)
     (34 B.Paste user)
     (35 F.Paste user)
     (36 B.SilkS user)
@@ -738,7 +738,7 @@
     )
   )
 
-  (module Pin_Headers:Pin_Header_Straight_2x03 (layer F.Cu) (tedit 571567A5) (tstamp 5710E4E2)
+  (module Pin_Headers:Pin_Header_Straight_2x03 (layer F.Cu) (tedit 57157F3E) (tstamp 5710E4E2)
     (at 96.012 62.738)
     (descr "Through hole pin header")
     (tags "pin header")
@@ -746,7 +746,7 @@
     (fp_text reference P1 (at 1.524 7.366) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value JUMPER_LEFT (at 1.016 8.89) (layer F.Fab) hide
+    (fp_text value JUMPER_LEFT (at 0 8.89) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1.27 1.27) (end -1.27 6.35) (layer F.SilkS) (width 0.15))
@@ -782,14 +782,14 @@
   )
 
   (module Pin_Headers:Pin_Header_Straight_1x02 (layer F.Cu) (tedit 57150E4C) (tstamp 5710E4E8)
-    (at 102.616 71.12)
+    (at 102.616 73.66 180)
     (descr "Through hole pin header")
     (tags "pin header")
     (path /5708425F)
-    (fp_text reference P2 (at 0 -2.54) (layer F.SilkS)
+    (fp_text reference P2 (at 0 -2.54 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value LEFT (at 0 5.08) (layer F.Fab) hide
+    (fp_text value LEFT (at 0 5.08 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 1.27 1.27) (end 1.27 3.81) (layer F.SilkS) (width 0.15))
@@ -803,9 +803,9 @@
     (fp_line (start -1.55 -1.55) (end 1.55 -1.55) (layer F.SilkS) (width 0.15))
     (fp_line (start -1.27 1.27) (end -1.27 3.81) (layer F.SilkS) (width 0.15))
     (fp_line (start -1.27 3.81) (end 1.27 3.81) (layer F.SilkS) (width 0.15))
-    (pad 1 thru_hole rect (at 0 0) (size 2.032 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
+    (pad 1 thru_hole rect (at 0 0 180) (size 2.032 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 15 "Net-(P1-Pad2)"))
-    (pad 2 thru_hole oval (at 0 2.54) (size 2.032 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
+    (pad 2 thru_hole oval (at 0 2.54 180) (size 2.032 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 2 GND))
     (model Pin_Headers.3dshapes/Pin_Header_Straight_1x02.wrl
       (at (xyz 0 -0.05 0))
@@ -858,14 +858,14 @@
   )
 
   (module Pin_Headers:Pin_Header_Straight_1x02 (layer F.Cu) (tedit 57150E2F) (tstamp 5710E4F8)
-    (at 102.616 25.4)
+    (at 102.616 27.94 180)
     (descr "Through hole pin header")
     (tags "pin header")
     (path /570842C0)
-    (fp_text reference P4 (at 0 -2.54) (layer F.SilkS)
+    (fp_text reference P4 (at 0 -2.54 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value RIGHT (at 0 5.588) (layer F.Fab) hide
+    (fp_text value RIGHT (at 0 5.588 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 1.27 1.27) (end 1.27 3.81) (layer F.SilkS) (width 0.15))
@@ -879,9 +879,9 @@
     (fp_line (start -1.55 -1.55) (end 1.55 -1.55) (layer F.SilkS) (width 0.15))
     (fp_line (start -1.27 1.27) (end -1.27 3.81) (layer F.SilkS) (width 0.15))
     (fp_line (start -1.27 3.81) (end 1.27 3.81) (layer F.SilkS) (width 0.15))
-    (pad 1 thru_hole rect (at 0 0) (size 2.032 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
+    (pad 1 thru_hole rect (at 0 0 180) (size 2.032 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 16 "Net-(P3-Pad2)"))
-    (pad 2 thru_hole oval (at 0 2.54) (size 2.032 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
+    (pad 2 thru_hole oval (at 0 2.54 180) (size 2.032 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 2 GND))
     (model Pin_Headers.3dshapes/Pin_Header_Straight_1x02.wrl
       (at (xyz 0 -0.05 0))
@@ -1439,6 +1439,12 @@
       (net 6 "Net-(C5-Pad1)"))
   )
 
+  (gr_text "+\n-" (at 105.156 26.67 180) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
+  (gr_text "+\n-" (at 105.156 72.39 180) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
   (gr_line (start 53.34 22.86) (end 53.34 76.2) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 106.426 76.2) (end 106.426 22.86) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 55.88 78.74) (end 103.886 78.74) (angle 90) (layer Edge.Cuts) (width 0.15))
