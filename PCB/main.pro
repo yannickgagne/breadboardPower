@@ -1,4 +1,4 @@
-update=2016-04-18 18:48:13
+update=2016-04-20 13:51:22
 version=1
 last_client=kicad
 [pcbnew]
@@ -37,7 +37,7 @@ SpiceUseNetNumbers=0
 LabSize=60
 [eeschema]
 version=1
-LibDir=C:/Users/Yannick/Google Drive/PCB/KiCAD/MyLibs
+LibDir=C:/Users/yannickg/Google Drive/PCB/KiCAD/MyLibs
 [eeschema/libraries]
 LibName1=myparts
 LibName2=power

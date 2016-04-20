@@ -1,7 +1,7 @@
 (export (version D)
   (design
-    (source C:/Users/Yannick/Documents/GitHub/breadboardPower/PCB/main.sch)
-    (date "2016-04-18 18:50:58")
+    (source C:/Users/yannickg/Documents/GitHub/breadboardPower/PCB/main.sch)
+    (date "2016-04-20 14:00:11")
     (tool "Eeschema 4.0.2-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -17,7 +17,7 @@
   (components
     (comp (ref CON1)
       (value BARREL_JACK)
-      (footprint Connect:BARREL_JACK)
+      (footprint mods:BARREL_JACK2)
       (libsource (lib conn) (part BARREL_JACK))
       (sheetpath (names /) (tstamps /))
       (tstamp 57083FF9))
@@ -251,6 +251,7 @@
       (tstamp 57150C98)))
   (libparts
     (libpart (lib myparts) (part 12x12_PUSHBUTTON_SPST)
+      (description "CW Industries GPTS203211B")
       (fields
         (field (name Reference) SW)
         (field (name Value) 12x12_PUSHBUTTON_SPST))
@@ -366,12 +367,12 @@
       (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\conn.lib"))
     (library (logical regul)
       (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\regul.lib"))
-    (library (logical device)
-      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\device.lib"))
     (library (logical transistors)
       (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\transistors.lib"))
+    (library (logical device)
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\device.lib"))
     (library (logical myparts)
-      (uri "C:\\Users\\Yannick\\Google Drive\\PCB\\KiCAD\\MyLibs\\myparts.lib")))
+      (uri "C:\\Users\\yannickg\\Google Drive\\PCB\\KiCAD\\MyLibs\\myparts.lib")))
   (nets
     (net (code 1) (name "Net-(Q1-Pad1)")
       (node (ref Q1) (pin 1))
