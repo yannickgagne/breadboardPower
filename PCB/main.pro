@@ -1,4 +1,4 @@
-update=2016-04-20 13:51:22
+update=2016-04-22 16:31:41
 version=1
 last_client=kicad
 [pcbnew]
@@ -37,7 +37,7 @@ SpiceUseNetNumbers=0
 LabSize=60
 [eeschema]
 version=1
-LibDir=C:/Users/yannickg/Google Drive/PCB/KiCAD/MyLibs
+LibDir=C:/Users/Yannick/Documents/GitHub/KiCAD/lib/MyLibs;C:/Users/Yannick/Documents/GitHub/KiCAD/lib/Library_schematic_shield_arduino;C:/Users/Yannick/Documents/GitHub/KiCAD/lib/kicad-ESP8266-master
 [eeschema/libraries]
 LibName1=myparts
 LibName2=power
