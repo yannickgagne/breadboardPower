@@ -1,4 +1,4 @@
-update=2016-04-22 16:31:41
+update=2016-04-25 13:38:05
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,19 +25,9 @@ version=1
 NetIExt=net
 [general]
 version=1
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
 [eeschema]
 version=1
-LibDir=C:/Users/Yannick/Documents/GitHub/KiCAD/lib/MyLibs;C:/Users/Yannick/Documents/GitHub/KiCAD/lib/Library_schematic_shield_arduino;C:/Users/Yannick/Documents/GitHub/KiCAD/lib/kicad-ESP8266-master
+LibDir=C:/Users/yannickg/Documents/GitHub/KiCAD/lib/MyLibs;C:/Users/yannickg/Documents/GitHub/KiCAD/lib/Library_schematic_shield_arduino;C:/Users/yannickg/Documents/GitHub/KiCAD/lib/kicad-ESP8266-master
 [eeschema/libraries]
 LibName1=myparts
 LibName2=power
@@ -69,3 +59,13 @@ LibName27=opto
 LibName28=atmel
 LibName29=contrib
 LibName30=valves
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
