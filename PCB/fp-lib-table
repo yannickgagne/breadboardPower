@@ -1,4 +1,2 @@
 (fp_lib_table
-  (lib (name myparts)(type KiCad)(uri C:\Users\Yannick\Documents\GitHub\KiCAD\lib\MyLibs\myparts.pretty)(options "")(descr ""))
-  (lib (name mods)(type KiCad)(uri C:\Users\Yannick\Documents\GitHub\KiCAD\lib\MyLibs\mods.pretty)(options "")(descr ""))
 )
